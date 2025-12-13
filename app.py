@@ -214,22 +214,22 @@ with st.sidebar:
     - 📂 Others
     """)
     
-        st.header("🎯 Features")
-        st.markdown(
-                """
-        <div style="background:#0f5132;border-radius:8px;padding:12px;color:#eaffea;">
-            <ul style="margin:0;padding-left:20px;">
-                <li>✅ Automatic file categorization</li>
-                <li>✅ Preview before organizing</li>
-                <li>✅ Undo organization (restore files)</li>
-                <li>✅ Duplicate file handling</li>
-                <li>✅ Progress tracking</li>
-                <li>✅ Detailed statistics</li>
-            </ul>
-        </div>
-        """,
-                unsafe_allow_html=True,
-        )
+    st.header("🎯 Features")
+    st.markdown(
+        """
+    <div style="background:#0f5132;border-radius:8px;padding:12px;color:#eaffea;">
+      <ul style="margin:0;padding-left:20px;">
+        <li>✅ Automatic file categorization</li>
+        <li>✅ Preview before organizing</li>
+        <li>✅ Undo organization (restore files)</li>
+        <li>✅ Duplicate file handling</li>
+        <li>✅ Progress tracking</li>
+        <li>✅ Detailed statistics</li>
+      </ul>
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
 
 # Main content
 tab1, tab2, tab3 = st.tabs(["📂 Organize Files", "🔄 Undo Organization", "📊 File Categories"])
